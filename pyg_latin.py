@@ -6,10 +6,10 @@ if len(original) > 0 and original.isalpha():
   word = original.lower()
   first = word[0]
   if first in vowels:
-    new_word = word + pyg
-    print new_word
+    new = word + pyg
+    print new
   else:
-    new_word = word[1:len(word)] + word[0] + pyg
-    print new_word
+    new = word[1:len(word)] + word[0] + pyg
+    print new
 else:
   print 'empty
